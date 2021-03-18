@@ -129,7 +129,7 @@ class _NewTransactionState extends State<NewTransaction> {
                             : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
                       ),
                     ),
-                    AdaptiveFlatButton(
+                    AdaptiveTextButton(
                       'Choose Date',
                       _presentDatePicker,
                     ),
